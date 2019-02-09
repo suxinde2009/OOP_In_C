@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F436713220EBCD5005F5566 /* Object.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F436712220EBCD5005F5566 /* Object.c */; };
+		1F436716220EBCDF005F5566 /* Type.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F436715220EBCDF005F5566 /* Type.c */; };
 		1FC8F63B1AF7E50C00CA2AC0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8F63A1AF7E50C00CA2AC0 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F436711220EBCD5005F5566 /* Object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		1F436712220EBCD5005F5566 /* Object.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Object.c; sourceTree = "<group>"; };
+		1F436714220EBCDF005F5566 /* Type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		1F436715220EBCDF005F5566 /* Type.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Type.c; sourceTree = "<group>"; };
 		1FC8F6371AF7E50C00CA2AC0 /* OOP_In_C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP_In_C; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC8F63A1AF7E50C00CA2AC0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +44,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F436710220EBCAF005F5566 /* OOC */ = {
+			isa = PBXGroup;
+			children = (
+				1F436711220EBCD5005F5566 /* Object.h */,
+				1F436712220EBCD5005F5566 /* Object.c */,
+				1F436714220EBCDF005F5566 /* Type.h */,
+				1F436715220EBCDF005F5566 /* Type.c */,
+			);
+			path = OOC;
+			sourceTree = "<group>";
+		};
 		1FC8F62E1AF7E50C00CA2AC0 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +74,7 @@
 		1FC8F6391AF7E50C00CA2AC0 /* OOP_In_C */ = {
 			isa = PBXGroup;
 			children = (
+				1F436710220EBCAF005F5566 /* OOC */,
 				1FC8F63A1AF7E50C00CA2AC0 /* main.c */,
 			);
 			path = OOP_In_C;
@@ -118,7 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F436713220EBCD5005F5566 /* Object.c in Sources */,
 				1FC8F63B1AF7E50C00CA2AC0 /* main.c in Sources */,
+				1F436716220EBCDF005F5566 /* Type.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +252,7 @@
 				1FC8F6401AF7E50C00CA2AC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
